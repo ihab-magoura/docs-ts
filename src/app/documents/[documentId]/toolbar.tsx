@@ -572,7 +572,7 @@ const ToolbarButton = ({
   );
 };
 
-export const ToolBar = () => {
+export const Toolbar = () => {
   const { editor } = useEditorStore();
   const sections: {
     label: string;
@@ -631,9 +631,9 @@ export const ToolBar = () => {
     [
       {
         label: "Comment",
-        isActive: false,
         icon: MessageSquarePlusIcon,
-        onClick: () => console.log("ff"),
+        onClick: () => editor?.chain().focus().addPendingComment().run(),
+        isActive: editor?.isActive("liveblocksCommentMark"),
       },
       {
         label: "List Todo",

@@ -1,5 +1,5 @@
 const DocumentPage = () => {
-  return <div> documents</div>;
+  return <div className="bg-neutral-950">DocumentPage</div>;
 };
 
 export default DocumentPage;

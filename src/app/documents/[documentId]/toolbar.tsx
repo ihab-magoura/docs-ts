@@ -14,8 +14,6 @@ import {
   ImageIcon,
   UploadIcon,
   SearchIcon,
-  icons,
-  AlignLeft,
   AlignLeftIcon,
   AlignCenterIcon,
   AlignRightIcon,
@@ -39,8 +37,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import {
@@ -54,7 +50,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 import { type Level } from "@tiptap/extension-heading";
-import { type ColorResult, CirclePicker, SketchPicker } from "react-color";
+import { type ColorResult, SketchPicker } from "react-color";
 
 import { useState } from "react";
 

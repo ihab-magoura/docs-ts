@@ -7,7 +7,7 @@ export const Navbar = () => {
       <div className="gap-3 flex items-center shrink-0 pr-6 ">
         <Link href={"/"} />
         <Image src={"/logo.svg"} alt="Logo" width={36} height={36} />
-        <h3 className="text-xl">EditFlow</h3>
+        <h3 className="text-xl">Live Docs</h3>
       </div>
     </nav>
   );
